@@ -1,5 +1,5 @@
 # CentOS 6 with JDK 1.7
-FROM snasello/centos6-java7
+FROM centos:centos6
 MAINTAINER Timo Benkhard <tcbenkhard@gmail.com>
 
 RUN yum install -y curl tar \
